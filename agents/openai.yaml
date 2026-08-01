@@ -1,0 +1,6 @@
+interface:
+  display_name: "Midlight Relay Image"
+  short_description: "Generate images through the Midlight relay"
+  default_prompt: "Use $coder-api-image to generate an image through my Midlight relay."
+policy:
+  allow_implicit_invocation: true
