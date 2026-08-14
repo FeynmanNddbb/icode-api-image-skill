@@ -1,0 +1,20 @@
+{
+  "name": "icode-api-image",
+  "version": "0.1.0",
+  "description": "Generate or edit images through the configured Midlight image relay.",
+  "author": {
+    "name": "Icode"
+  },
+  "repository": "https://github.com/FeynmanNddbb/icode-api-image-skill",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Icode API Image",
+    "shortDescription": "Generate or edit images through the Midlight relay.",
+    "longDescription": "Generate and edit images through Icode's OpenAI-compatible Midlight relay.",
+    "developerName": "Icode",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $icode-api-image to generate or edit an image through my Midlight relay."
+  }
+}

@@ -501,7 +501,7 @@ class GenerateImageTest(unittest.TestCase):
         self.assertIn("--select-configuration", instructions)
 
     def test_successful_workflow_returns_security_reminder_after_local_key_save(self) -> None:
-        descriptor, state_name = tempfile.mkstemp(prefix="coder-api-image-test-", suffix=".json")
+        descriptor, state_name = tempfile.mkstemp(prefix="icode-api-image-test-", suffix=".json")
         os.close(descriptor)
         state_path = Path(state_name)
         try:
