@@ -6,7 +6,7 @@
 
 ## 使用前准备
 
-1. 在你的 Midlight relay 控制台创建一个生图 API key。
+1. 在 <https://icodeapi.com/keys> 创建一个生图 API key。
 2. 建议只开放你实际需要的模型，并设置费用、余额或调用额度上限。
 3. 不要把真实密钥写入代码、README、截图、Git 提交或公共聊天记录。
 
